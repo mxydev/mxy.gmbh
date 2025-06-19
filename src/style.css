@@ -1,0 +1,33 @@
+html, body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto, noto, helvetica, arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #111;
+  color: rgba(255, 255, 255, .6);
+}
+
+main {
+  padding: 20px;
+
+  font-size: 11px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
